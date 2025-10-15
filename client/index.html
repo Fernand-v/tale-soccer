@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tale ⚽</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="startModal" class="modal">
+      <div class="modal-content">
+        <h2>⚽ Tale Soccer</h2>
+        <input id="playerName" type="text" placeholder="Tu nombre" maxlength="12" />
+        <button id="startBtn">Comenzar</button>
+        <p id="statusText">Esperando conexión...</p>
+      </div>
+    </div>
+
+    <!-- 👇 el canvas que el JS va a buscar -->
+    <canvas id="gameCanvas" width="500" height="500"></canvas>
+
+    <!-- 👇 asegúrate de que este script esté al final del body -->
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

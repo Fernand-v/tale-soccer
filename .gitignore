@@ -1,0 +1,39 @@
+# Dependencias
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Archivos del editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+.env.local
+
+# Archivos del cliente y servidor
+client/node_modules/
+server/node_modules/
+client/dist/
+server/dist/
+
+# Archivos del sistema operativo
+ehthumbs.db
+desktop.ini
+
+# Lockfiles (puedes mantener solo uno si prefieres)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
