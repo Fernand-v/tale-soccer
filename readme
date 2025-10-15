@@ -30,5 +30,5 @@ Para comenzar un servidor, ejecuta:
 cd server && pnpm run dev
 cd client && pnpm run dev --host 
 
-  ![image](https://github.com/Fernand-v/tale-soccer/blob/main/assets/inicio.png?raw=true)
-  ![image](https://github.com/Fernand-v/tale-soccer/blob/main/assets/campo.png?raw=true) 
+  ![image](https://github.com/Fernand-v/tale-soccer/blob/main/assets/inicio.png)
+  ![image](https://github.com/Fernand-v/tale-soccer/blob/main/assets/campo.png) 
